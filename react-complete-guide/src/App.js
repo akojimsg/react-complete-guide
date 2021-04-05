@@ -80,7 +80,6 @@ class App extends Component {
           name={this.state.persons[2].name} 
           age={this.state.persons[2].age}
           changed={(e) => this.nameChangedHandler(e,2)} >Cooking is fun</Person>
-        <UserOutput username={this.state.user.name} changed={(e) => this.userNameChangedHandler(e)}/>
       </div>
     );
     // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Does this work now?'));
