@@ -1,10 +1,10 @@
 import React from 'react'
 
-const UserInput = (props) => {
+const userInput = (props) => {
 
     const style = {
         padding: '5px',
-        width: '200px',
+        width: '50%',
         border: '1px solid #f0e'
     }
 
@@ -15,4 +15,4 @@ const UserInput = (props) => {
     );
 }
 
-export default UserInput;
+export default userInput;

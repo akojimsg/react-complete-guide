@@ -2,7 +2,7 @@ import React from  'react'
 import UserInput from '../UserInput/UserInput'
 import './UserOutput.css'
 
-const UserOutput = (props) => {
+const userOutput = (props) => {
     return(
         <div className="Output">
             <p>User name - {props.username}</p>
@@ -12,4 +12,4 @@ const UserOutput = (props) => {
     )
 }
 
-export default UserOutput;
+export default userOutput;
